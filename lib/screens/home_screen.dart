@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Expanded(
                 child: GridView.count(
                   shrinkWrap: true,
-                  crossAxisCount: 4,
+                  crossAxisCount: 2,
                   crossAxisSpacing: 8,
                   children: [
                     Column(
@@ -131,16 +131,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         )
                       ],
                     ),
-                    Column(
-                      children: [
-                        Text("Create Module"),
-                      ],
-                    ),
-                    Column(
-                      children: [
-                        Text("Create Module"),
-                      ],
-                    )
                   ]
                 ),
               ),
